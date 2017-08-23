@@ -1,11 +1,3 @@
-ifup enp0s3
-yum -y install git
-cd ~
-git clone
-cd mo_setup
-chmod +x setup.bash
-./setup.bash
-
 # Setup.bash
 yum -y update
 yum -y install wget rsync lsof gcc openssl-devel python-virtualenv
